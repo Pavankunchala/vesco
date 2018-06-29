@@ -40,9 +40,6 @@ h3 {
 #home-cover {
     height: 100%;
     background-image: url(../img/bg-home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
 }
 
@@ -66,11 +63,24 @@ h3 {
 
 
 }
+
+/*=============================================
+                   PARALLAX ( general)
+=================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /*=============================================
                    Buttons (generic)
 =================================================*/
+
 .btn-general {
-    
+
     border-width: 2px;
     border-radius: 0;
     padding: 12px 26px 12px 26px;
@@ -78,14 +88,44 @@ h3 {
     font-weight: 400;
     text-transform: uppercase;
 }
-.btn-white { 
+
+.btn-white {
     border-color: #fff;
     color: #fff;
 }
-.btn-white:hover , .btn-white:focus {
+
+.btn-white:hover,
+.btn-white:focus {
     background-color: #fff;
-    color: #41464b; 
+    color: #41464b;
+}
+
+
+/*=============================================
+                   ANIMATE
+=================================================*/
+#home-cover,#home-heading,#home-btn{
+     animation-duration: .5s;
 } 
+
+#home-cover {
+    animation-duration: .1s;
+   
+}
+#home-heading {
+    animation-delay: .5s;
+         
+}
+
+#home-btn {
+    animation-delay: 1s;
+         
+}
+
+
+
+
+
 
 
 
