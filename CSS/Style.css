@@ -23,14 +23,15 @@ body {
 
     font-family: "Roboto Condensed", sans-serif;
 }
+
 p {
-    color: #64707b ;
+    color: #64707b;
     font-size: 16px;
     font-weight: 300;
 }
 
 h3 {
-    color:  #41464b;
+    color: #41464b;
     text-transform: uppercase;
 }
 
@@ -110,27 +111,32 @@ h3 {
 /*=============================================
                    ANIMATE
 =================================================*/
-#home-cover,#home-heading,#home-btn{
-     animation-duration: .5s;
-} 
+
+#home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+}
 
 #home-cover {
     animation-duration: .1s;
-   
+
 }
+
 #home-heading {
     animation-delay: .5s;
-         
+
 }
 
 #home-btn {
     animation-delay: 1s;
-         
+
 }
 
 /*=============================================
                    CONTENT BOX (generic)
 =================================================*/
+
 .content-box {
     padding: 60px 0 60px 0;
 }
@@ -142,6 +148,7 @@ h3 {
     margin: 0 0 30px 0;
 
 }
+
 .content-title-underline {
     width: 30px;
     height: 3px;
@@ -153,11 +160,12 @@ h3 {
                    SERVICES
 =================================================*/
 
-.service-item{
+.service-item {
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
     cursor: pointer;
 }
+
 .service-item-icon i {
     color: #34c6d3;
     float: left;
@@ -167,60 +175,20 @@ h3 {
     height: 75px;
     text-align: center;
 }
+
 .service-item:hover .service-item-icon i {
     color: #fff;
     background-color: #34c6d3;
 }
+
 .service-item-title h3 {
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 10px 0;
 }
+
 .service-item-desc p {
     margin: 0;
     padding-left: 85px;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
