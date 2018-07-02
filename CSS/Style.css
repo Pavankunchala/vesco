@@ -267,9 +267,23 @@ border-left: 200px solid #fff;
     transform:scale(1.5);
     cursor: zoom-in;
 }
+#work .content-title h3 {
+    text-align: center;
+} 
+#work .content-title-underline {
+      margin: 0 auto 30px auto;
+}
 
 
+/*=============================================
+                   TEAM
+=================================================*/
+#team .content-title h3 {
+    text-align: center;
+}
 
-
+#team .content-title-underline {
+      margin: 0 auto 30px auto;
+}
 
 
