@@ -348,3 +348,18 @@ h4.team-member-designation {
 .social-icon i:hover {
     color: #34c6d3;
 }
+
+/*=============================================
+                   SOCIAL ICONS
+=================================================*/
+
+#testimonials .content-box h3 {
+    text-align: center;
+}
+#testimonials .content-title-underline {
+    margin: 0 auto 30px auto;
+}
+
+
+
+
