@@ -161,6 +161,10 @@ h3 {
 
 }
 
+.content-title-white h3 {
+    color: #fff;
+}
+
 .content-title-underline {
     width: 30px;
     height: 3px;
@@ -345,21 +349,64 @@ h4.team-member-designation {
     color: #64707b;
 }
 
-.social-icon i:hover {
+blockquote .social-icon i:hover {
     color: #34c6d3;
 }
 
 /*=============================================
-                   SOCIAL ICONS
+                   TESTIMONIALS
 =================================================*/
 
 #testimonials .content-box h3 {
     text-align: center;
 }
+
 #testimonials .content-title-underline {
     margin: 0 auto 30px auto;
 }
 
+#testimonials-cover {
+    background-image: url(../img/bg-testimonials.jpg);
+}
 
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
+#customers-testimonials {
+    padding: 50px 0;
+}
 
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding: 6px 150px;
+}
+
+.testimonial blockquote p {
+    color: #fff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+}
