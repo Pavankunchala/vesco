@@ -388,6 +388,8 @@ blockquote .social-icon i:hover {
     font-style: italic;
     color: #fff;
     padding: 6px 150px;
+    position: relative;
+
 }
 
 .testimonial blockquote p {
@@ -401,12 +403,26 @@ blockquote .social-icon i:hover {
     line-height: 1;
     width: 30px;
     height: 30px;
+    position: absolute;
 }
 
 .testimonial blockquote::before {
     content: "\201C";
+    top: 0;
+    left: 100px;
 }
 
 .testimonial blockquote::after {
     content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+
+.testimonial-author p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.testimonial-author strong {
+    display: block;
 }
