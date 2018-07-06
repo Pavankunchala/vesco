@@ -534,3 +534,20 @@ ul.pricing-spec li p {
  '
 
 }
+
+
+/*=============================================
+                   CLIENTS
+=================================================*/
+
+#clients .content-title h3 {
+    text-align: center;
+}
+
+#clients .content-title-underline {
+    margin: 0 auto 30px auto;
+}
+
+.client {
+    padding: 40px 0;
+}
