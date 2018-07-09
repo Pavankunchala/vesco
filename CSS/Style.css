@@ -649,3 +649,62 @@ footer-menu ul {
 #footer-menu a:hover {
     color: #34c6d3;
 }
+
+
+/*=============================================
+                   NAVIGATION
+=================================================*/
+.navbar {
+    padding: 20px 0;
+}
+.vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+.vesco-nav-wrapper {
+    padding: 0 80px;
+}
+ .navbar-nav {
+    float: right; 
+}
+#vesco-menu .navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700; 
+}
+#vesco-menu .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3;
+}
+.navbar-toggle {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.vesco-nav-wrapper .navbar-collapse {
+    max-height: none ! important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
