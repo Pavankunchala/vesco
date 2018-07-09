@@ -1,0 +1,48 @@
+
+/*=============================================
+                   BOOTSTRAP MEDIA QUERIES
+=================================================*/
+
+/*Large Devices (Desktop & Laptop)*/
+
+@media (min-width: 1200px) {
+
+/*    OK  */
+}
+
+/*Medium Devices (Landscape Tablets & Medium Devices)*/
+@media (min-width: 992px)and (max-width: 1199px) {
+    
+/*    Mobile Menu */
+    .navbar {
+         background: rgba(0,0,0,0.7);
+        padding: 0;
+    }
+    #vesco-menu ul.navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+}
+
+/*Small Devices (Tablets)*/
+@media (min-width:768px)and (max-width:991px) {
+    
+    }
+
+/*Extra Small Devices (phones)*/
+@media (max-width:767px) {
+
+}
+/*Extra Small Devices (phones)*/
+@media (max-width:480px) {
+    
+}
+/*Extra Small Devices (phones)*/
+@media (max-width:320px) {
+
+    
+}
+
+
