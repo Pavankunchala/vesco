@@ -280,6 +280,8 @@ h3 {
 
 .img-wrapper img {
     transition: transform .5s ease;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .img-wrapper img:hover {
