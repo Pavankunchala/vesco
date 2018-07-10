@@ -68,12 +68,107 @@
 
 /*Extra Small Devices (phones)*/
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+    /*    Mobile Menu */
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+    #vesco-menu ul.navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    /*    heading*/
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    /*    buttons*/
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    /* ABOUT  removal of diagonal shape   */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    /*    WORK*/
+    .img-wrapper img {
+        min-width: 100%;
+    }
 
-/*Extra Small Devices (phones)*/
+    /*  TESTIMONIALS  */
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    .testimonial blockquote:after {
+        right: 10px;
+    }
 
-@media (max-width:480px) {}
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
 
-/*Extra Small Devices (phones)*/
+    /*  STATS  */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /*    FOOTER  */
+    #footer-copyrights {
+        text-align: center;
+    }
 
-@media (max-width:320px) {}
+
+    /*Extra Small Devices (phones)*/
+    @media (max-width:480px) {
+        /*    ok*/
+    }
+
+    /*Extra Small Devices (phones)*/
+    @media (max-width:320px) {
+        /*   servicrs */
+        .service-item-icon i {
+            width: 58px;
+            height: 58px;
+            padding: 7px;
+        }
+        .service-item-title h3 {
+            font-size: 17px;
+        }
+        /*    aBOUT*/
+        #about-content-box {
+            margin-top: 40px;
+        }
+        /*  TESTIMONIALS  */
+        .testimonial img {
+            max-width: 80px;
+        }
+        .testimonial blockquote {
+            padding: 6px 30px;
+        }
+        .testimonial blockquote:before {
+            left: 7px;
+        }
+        .testimonial blockquote:after {
+            right: 7px;
+        }
+
+        .testimonial blockquote p {
+            font-size: 14px;
+        }
+
+
+
+
+    }
