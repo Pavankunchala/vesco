@@ -132,27 +132,32 @@ h3 {
 /*=============================================
                    ANIMATE
 =================================================*/
-
 #home-cover,
 #home-heading,
 #home-btn {
-    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
 }
 
 #home-cover {
-    animation-duration: .1s;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
 
 }
 
 #home-heading {
-    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
 
 }
 
 #home-btn {
-    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
 
 }
+
+
 
 /*=============================================
                    CONTENT BOX (generic)
@@ -665,11 +670,12 @@ footer-menu ul {
                    NAVIGATION
 =================================================*/
 
-.navbar {
-    padding: 20px 0;
-    transition: all .5s ease-in-out;
+.navbar {padding: 20px 0;
+-webkit-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out; 
+transition: all .5s ease-in-out;
 }
-
 .vesco-top-nav {
     background: rgba(0, 0, 0, 0.7);
     padding: 7px 0;
